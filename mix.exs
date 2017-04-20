@@ -17,7 +17,7 @@ defmodule Scraper.Mixfile do
     # Specify extra applications you'll use from Erlang/Elixir
     [
       mod: {Scraper, []},
-      applications: [:logger, :httpoison, :hound]
+      applications: [:logger, :httpoison, :hound, :omdb_api]
     ]
   end
 
